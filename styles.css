@@ -1,0 +1,126 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    background-image: url('images/burger.jpg');
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .menu {
+    list-style-type: none;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    position: relative;
+    height: 400px; 
+  }
+  
+  .background-image {
+    background-color: #000;
+    background-size: cover;
+    height: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .intro-text {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .intro-text h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text p {
+    font-size: 18px;
+  }
+  
+  /* Menu Section Styles */
+  .menu-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .menu-item {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .menu-item p {
+    color: #666;
+  }
+  
+  
+  .find-us {
+    padding: 25px 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    size: 30px;
+    
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
